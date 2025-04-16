@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destino dos Magos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Destino dos Magos</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="galeria.html">Galeria de Fotos</a></li>
+        <li><a href="trailer.html">Trailer</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="personagens.html">Personagens</a></li>
+        <li><a href="jogar.html">Jogar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2>Uma jornada mágica começa aqui</h2>
+        <p>Prepare-se para descobrir os segredos dos magos e salvar o reino!</p>
+        <button class="cta-button" onclick="window.location.href='jogar.html'">Em breve disponível</button>
+      </div>
+    </section>
+
+    <section id="sobre" class="section-container">
+      <div class="section-content">
+        <h2>Sobre o Jogo</h2>
+        <p><strong>Destino dos Magos</strong> é um jogo de aventura e fantasia onde você explora terras mágicas, enfrenta criaturas místicas e domina os elementos para restaurar a ordem.</p>
+        <p>Junte-se ao Mago Andarilho em sua missão para derrotar os monstros que ameaçam o reino e restaurar a paz nas terras mágicas.</p>
+      </div>
+    </section>
+
+    <section id="recursos" class="section-container">
+      <div class="section-content">
+        <h2>Recursos do Jogo</h2>
+        <div class="recursos-grid">
+          <div class="recurso-item">
+            <h3>Mundo Vasto</h3>
+            <p>Explore paisagens mágicas e descubra segredos escondidos</p>
+          </div>
+          <div class="recurso-item">
+            <h3>Magias Poderosas</h3>
+            <p>Domine os elementos e aprenda feitiços únicos</p>
+          </div>
+          <div class="recurso-item">
+            <h3>Criaturas Místicas</h3>
+            <p>Enfrente monstros desafiadores e chefes épicos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section-container">
+      <div class="section-content">
+        <h2>Galeria de Fotos</h2>
+        <p><strong>Conheça o Mago Andarilho e os lugares onde ele luta contra os monstros.</strong></p>
+        <div class="galeria-grid">
+          
+          <div class="galeria-item">
+            <img src="imagens/29d0d9cd-5074-44d1-87b3-a89b5e324f0e.png" alt="Mago Andarilho">
+            <p>O Mago Andarilho</p>
+          </div>
+          <div class="galeria-item">
+            <img src="imagens/ChatGPT Image 13 de abr. de 2025, 17_59_00.png" alt="Castelo Sombrio">
+            <p>Castelo Sombrio</p>
+          </div>
+        </div>
+        <a href="galeria.html" class="ver-mais">Ver mais fotos</a>
+      </div>
+    </section>
+
+    <section id="trailer" class="section-container">
+      <div class="section-content">
+        <h2>Trailer</h2>
+        <div class="video-container">
+          <p>Em breve: vídeo com gameplay e cenas cinematográficas.</p>
+          
+          <div class="trailer-placeholder">
+            <img src="img/trailer-placeholder.jpg" alt="Trailer do jogo">
+            <div class="play-button"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="personagens" class="section-container">
+      <div class="section-content">
+        <h2>Personagens</h2>
+        <div class="personagens-grid">
+          <div class="personagem-card">
+            <img src="imagens/29d0d9cd-5074-44d1-87b3-a89b5e324f0e.png" alt="Mago Andarilho">
+            <h3>Mago Andarilho</h3>
+            <p>O herói principal, dotado de poderes místicos e grande sabedoria.</p>
+          </div>
+          <div class="personagem-card">
+            <img src="imagens/ChatGPT Image 13 de abr. de 2025, 17_59_17.png" alt="Medusa">
+            <h3>Medusa</h3>
+            <p>Um mosntro mitológico que protege os arredores do Castelo.</p>
+          </div>
+          <div class="personagem-card">
+            <img src="imagens/8c6bf5ac-203a-4cd9-a477-7b743bd403d8.png" alt="Lord Esqueleto">
+            <h3>Lord Esqueleto</h3>
+            <p>O principal antagonista que ameaça a paz do reino.</p>
+          </div>
+        </div>
+        <a href="personagens.html" class="ver-mais">Conhecer todos os personagens</a>
+      </div>
+    </section>
+
+    <section id="jogar" class="section-container">
+      <div class="section-content">
+        <h2>Jogar</h2>
+        <div id="game-container">
+          
+          <p>Em breve você poderá jogar "Destino dos Magos" diretamente pelo navegador!</p>
+          <button class="cta-button">Notifique-me quando estiver disponível</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section-container">
+      <div class="section-content">
+        <h2>Fale com a gente</h2>
+        <form action="https://formsubmit.co/pedroaugusto9345@gmail.com" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="obrigado.html">
+          <button type="submit" class="submit-button">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>Destino dos Magos</h3>
+      </div>
+      <div class="footer-links">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="personagens.html">Personagens</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Siga-nos</h4>
+        <div class="social-icons">
+          <a href="#" class="social-icon">Facebook</a>
+          <a href="#" class="social-icon">Twitter</a>
+          <a href="#" class="social-icon">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Destino dos Magos. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
